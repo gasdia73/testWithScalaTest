@@ -6,6 +6,10 @@ lazy val root = (project in file("."))
   .settings(
     name := "testWithScalaTest",
     libraryDependencies ++= Seq(
+      "io.circe" %% "circe-core" % "0.14.7", // Or latest version
+      "io.circe" %% "circe-generic" % "0.14.7", // For derivation
+      "io.circe" %% "circe-parser" % "0.14.7", // For parsing JSON strings
       "org.scalatest" %% "scalatest" % "3.2.17" % Test // Or the latest ScalaTest version
+
     )
   )

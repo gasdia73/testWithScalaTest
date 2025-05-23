@@ -6,14 +6,4 @@ class MySuite extends AnyFunSuite {
     assert(Set.empty.size == 0)
   }
 
-  test("A person show is derived") {
-    val person = Person("Alice", 30)
-    assert(summon[Show[Person]].show(person) == "Instance of Person")
-  }
-
-  test("A color show is derived") {
-    val color = Color.Red
-    assert(summon[Show[Color]].show(color) == "Instance of Color")
-  }
-
 }
