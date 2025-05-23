@@ -1,0 +1,23 @@
+# sbt specific
+target/
+project/project/
+project/target/
+*.jar
+*.war
+*.ear
+*.class
+*.lock
+*.#*
+.bloop/
+.metals/
+.bsp/
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# IDE - VS Code
+.vscode/
