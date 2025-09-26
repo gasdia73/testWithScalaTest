@@ -1,6 +1,6 @@
-import io.circe._ // Core imports: Encoder, Decoder, Codec, Json
+import io.circe.*  // Core imports: Encoder, Decoder, Codec, Json
 import io.circe.syntax._ // For .asJson extension method
-import io.circe.parser.decode // For decoding JSON strings
+import io.circe.parser._ // For decoding JSON strings
 
 // 1. Define a case class
 // We use 'derives Codec.AsObject' to automatically generate
